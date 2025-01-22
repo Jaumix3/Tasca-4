@@ -1,2 +1,4 @@
 use Ex4;
-Select * From Ex4.POLISSA;
+Select count(*) as numpolises
+from POLISSA, Client
+where Client.idClient=POLISSA.Client_idClient and Client.Nom like "%Joan%"
