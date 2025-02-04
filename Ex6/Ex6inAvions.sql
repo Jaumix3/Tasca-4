@@ -1,0 +1,1 @@
+select count(idAvions), a.Model as Model, a.Capacitat as Capacitat, a.Companyia as Companyia
